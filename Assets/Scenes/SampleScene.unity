@@ -616,10 +616,10 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 94.282, z: 0}
---- !u!4 &468392722 stripped
+--- !u!4 &566778079 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6489749921230112454, guid: 3a691c464036f484a93aabb1a3de5c66, type: 3}
-  m_PrefabInstance: {fileID: 729038169}
+  m_PrefabInstance: {fileID: 6489749920732949425}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &586483571
 GameObject:
@@ -1979,7 +1979,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1552699396 stripped
+--- !u!4 &1584397579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6489749921230112454, guid: 3a691c464036f484a93aabb1a3de5c66, type: 3}
   m_PrefabInstance: {fileID: 669511507}
@@ -1997,6 +1997,7 @@ GameObject:
   - component: {fileID: 1594831680}
   - component: {fileID: 1594831679}
   - component: {fileID: 1594831683}
+  - component: {fileID: 1594831684}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -2122,6 +2123,37 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 0082bfff2e5d2b2409e7032d54319c8a, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &1594831684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594831678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_GenerateLinks: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_MinRegionArea: 2
+  m_NavMeshData: {fileID: 23800000, guid: 57b4e351d0197ca4ba62d826bd52d161, type: 2}
+  m_BuildHeightMesh: 0
 --- !u!1 &1607203453
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,11 +2259,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 94.282, z: 0}
---- !u!4 &1650617719 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6489749921230112454, guid: 3a691c464036f484a93aabb1a3de5c66, type: 3}
-  m_PrefabInstance: {fileID: 6489749920732949425}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1779371423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2398,6 +2425,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 94.282, z: 0}
+--- !u!4 &1871619560 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6489749921230112454, guid: 3a691c464036f484a93aabb1a3de5c66, type: 3}
+  m_PrefabInstance: {fileID: 729038169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2011352324 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 47e76425a3a1bac42815eee7ac90fca8, type: 3}
@@ -2777,9 +2809,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Waypoints:
-  - {fileID: 1650617719}
-  - {fileID: 468392722}
-  - {fileID: 1552699396}
+  - {fileID: 566778079}
+  - {fileID: 1871619560}
+  - {fileID: 1584397579}
   Player: {fileID: 2107106902}
   SightRange: 10
   AttackRange: 2
